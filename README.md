@@ -17,3 +17,9 @@ sudo apt-get install libxkbcommon-x11-0 libxcb-icccm4 libxcb-image0 libxcb-keysy
 ```Shell
 sudo apt-get install git
 ```
+## 压缩/解压文件夹
+
+```Shell
+tar -czf myfolder.tar.gz myfolder/
+tar -xzf backup.tar.gz
+```
