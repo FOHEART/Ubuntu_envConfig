@@ -1,5 +1,12 @@
 # Ubuntu_envConfig
 
+## 常用工具安装
+
+```Shell
+sudo apt update
+sudo apt install net-tools
+```
+
 ## OpenGL运行环境安装
 
 ```Shell
