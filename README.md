@@ -7,6 +7,13 @@ sudo apt update
 sudo apt install net-tools
 ```
 
+## 虚拟机共享文件夹修复
+
+```Shell
+chmod +x ./shell_cmd/fix-shared-folders.sh
+./shell_cmd/fix-shared-folders.sh
+```
+
 ## OpenGL运行环境安装
 
 ```Shell
