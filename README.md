@@ -14,6 +14,12 @@ chmod +x ./shell_cmd/fix-shared-folders.sh
 ./shell_cmd/fix-shared-folders.sh
 ```
 
+## 将当前目录使用VSCode打开（Windows）
+
+```Shell
+./shell_cmd_win/open_in_vscode.bat
+```
+
 ## OpenGL运行环境安装
 
 ```Shell
