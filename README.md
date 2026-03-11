@@ -48,3 +48,10 @@ sudo apt-get install git
 tar -czf myfolder.tar.gz myfolder/
 tar -xzf backup.tar.gz
 ```
+
+## Install claude code memory
+
+```Shell
+/plugin marketplace add thedotmack/claude-mem
+/plugin install claude-mem
+```
