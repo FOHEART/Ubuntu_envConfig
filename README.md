@@ -55,3 +55,9 @@ tar -xzf backup.tar.gz
 /plugin marketplace add thedotmack/claude-mem
 /plugin install claude-mem
 ```
+## Ubuntu git add user email
+
+```Shell
+git config --global user.email "humaoxiao@foheart.com"
+git config --global user.name "FOHEART"
+```
