@@ -37,11 +37,13 @@ sudo apt install libxcb-cursor0 libxcb-cursor-dev
 ```Shell
 sudo apt install libxkbcommon-x11-0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0 libxcb-xfixes0
 ```
+
 ## 安装git
 
 ```Shell
 sudo apt-get install git
 ```
+
 ## 压缩/解压文件夹
 
 ```Shell
@@ -55,9 +57,25 @@ tar -xzf backup.tar.gz
 /plugin marketplace add thedotmack/claude-mem
 /plugin install claude-mem
 ```
+
 ## Ubuntu git add user email
 
 ```Shell
 git config --global user.email "humaoxiao@foheart.com"
 git config --global user.name "FOHEART"
 ```
+
+
+
+## 安装openspec
+
+首先更新nodejs
+
+node -v
+
+windows下载最新安装包安装
+
+
+
+安装完后执行：npm install -g @fission-ai/openspec@latest
+
