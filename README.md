@@ -65,17 +65,36 @@ git config --global user.email "humaoxiao@foheart.com"
 git config --global user.name "FOHEART"
 ```
 
-
-
 ## 安装openspec
 
 首先更新nodejs
 
-node -v
+`node -v`
 
 windows下载最新安装包安装
 
+安装完后执行：
+
+`npm install -g @fission-ai/openspec@latest`
+
+## 安装PowerShell 7
+
+`winget install --id Microsoft.PowerShell --source winget`
+
+### 搜索最新版本的 PowerShell
+
+`winget search --id Microsoft.PowerShell`
 
 
-安装完后执行：npm install -g @fission-ai/openspec@latest
+
+Output
+
+
+
+`Name               Id                           Version Source`
+
+`PowerShell         Microsoft.PowerShell         7.5.5.0 winget
+PowerShell Preview Microsoft.PowerShell.Preview 7.6.0.6 winget`
+
+
 
