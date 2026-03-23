@@ -77,24 +77,44 @@ windows下载最新安装包安装
 
 `npm install -g @fission-ai/openspec@latest`
 
+
+
+## 安装winget
+
+https://github.com/microsoft/winget-cli/tags
+
 ## 安装PowerShell 7
 
+查看当前电脑安装的PowerShell版本：
+
+$PSVersionTable.PSVersion
+
+返回
+
+Major  Minor  Build  Revision
+
+5      1      26100  1591
+
+尝试安装稳定版PS7
+
 `winget install --id Microsoft.PowerShell --source winget`
+
+如果安装失败，到下面地址下载msi手动安装：
+
+https://github.com/PowerShell/PowerShell/releases
 
 ### 搜索最新版本的 PowerShell
 
 `winget search --id Microsoft.PowerShell`
 
-
-
 Output
-
-
 
 `Name               Id                           Version Source`
 
 `PowerShell         Microsoft.PowerShell         7.5.5.0 winget
 PowerShell Preview Microsoft.PowerShell.Preview 7.6.0.6 winget`
 
-
-
+## linux下查看一个运行文件的依赖
+```bash
+ldd a
+```
