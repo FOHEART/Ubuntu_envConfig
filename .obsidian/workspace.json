@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ubuntu新安装配置.md.md",
+                "file": "Ubuntu新安装配置.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ubuntu新安装配置.md"
+              "title": "Ubuntu新安装配置"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ubuntu新安装配置.md.md",
+                "file": "Ubuntu新安装配置.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ubuntu新安装配置.md"
+              "title": "Ubuntu新安装配置"
             }
           }
         ],
@@ -223,13 +223,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7e239006206a775",
+  "active": "66899c86b02947c9",
   "lastOpenFiles": [
+    "配置github ssh key.md",
+    "Ubuntu新安装配置.md",
+    "欢迎.md",
     "README.md",
-    "Ubuntu新安装配置.md.md",
-    "配置github ssh key.md.md",
     "Copilot Prompt/copilot指令.md",
-    "Copilot Prompt",
-    "欢迎.md"
+    "Copilot Prompt"
   ]
 }

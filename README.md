@@ -1,11 +1,5 @@
 # Ubuntu_envConfig
 
-## 常用工具安装
-
-```Shell
-sudo apt update
-sudo apt install net-tools
-```
 ## 编译环境
 
 ``` bash
@@ -29,12 +23,6 @@ chmod +x ./shell_cmd/fix-shared-folders.sh
 ./shell_cmd_win/open_in_vscode.bat
 ```
 
-## OpenGL运行环境安装
-
-```Shell
-sudo apt install libglew-dev libglfw3-dev libglm-dev libglu1-mesa-dev libgl1-mesa-dev freeglut3-dev
-```
-
 ## Qt在线安装
 
 ```Shell
@@ -45,12 +33,6 @@ sudo apt install libxcb-cursor0 libxcb-cursor-dev
 
 ```Shell
 sudo apt install libxkbcommon-x11-0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0 libxcb-xfixes0
-```
-
-## 安装git
-
-```Shell
-sudo apt-get install git
 ```
 
 ## 压缩/解压文件夹

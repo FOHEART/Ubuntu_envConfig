@@ -17,11 +17,11 @@ sudo apt install open-vm-tools open-vm-tools-desktop
 
 ## 添加SSH
 
-[[配置github ssh key.md]]
+[[配置github ssh key]]
 
-## 安装git cmake build-essential
+## 安装git cmake build-essential nettool
 
-sudo apt install git cmake build-essential
+sudo apt install git cmake build-essential net-tools
 
 ## 安装Opengl相关库
 ```Shell
