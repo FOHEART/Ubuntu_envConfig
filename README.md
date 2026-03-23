@@ -6,7 +6,16 @@
 sudo apt update
 sudo apt install net-tools
 ```
+## 编译环境
 
+``` bash
+sudo apt install build-essential
+```
+## 虚拟机没有网络
+
+```bash
+sudo dhclient
+```
 ## 虚拟机共享文件夹修复
 
 ```Shell
@@ -23,7 +32,7 @@ chmod +x ./shell_cmd/fix-shared-folders.sh
 ## OpenGL运行环境安装
 
 ```Shell
-sudo apt install libglew-dev libglfw3-dev libglm-dev libglu1-mesa-dev
+sudo apt install libglew-dev libglfw3-dev libglm-dev libglu1-mesa-dev libgl1-mesa-dev freeglut3-dev
 ```
 
 ## Qt在线安装
