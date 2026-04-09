@@ -2,14 +2,16 @@
 
 ## 编译环境
 
-``` bash
+```bash
 sudo apt install build-essential
 ```
+
 ## 虚拟机没有网络
 
 ```bash
 sudo dhclient
 ```
+
 ## 虚拟机共享文件夹修复
 
 ```Shell
@@ -56,6 +58,10 @@ git config --global user.email "humaoxiao@foheart.com"
 git config --global user.name "FOHEART"
 ```
 
+## 更换Python源
+
+pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
+
 ## 安装openspec
 
 首先更新nodejs
@@ -67,8 +73,6 @@ windows下载最新安装包安装
 安装完后执行：
 
 `npm install -g @fission-ai/openspec@latest`
-
-
 
 ## 安装winget
 
@@ -106,6 +110,8 @@ Output
 PowerShell Preview Microsoft.PowerShell.Preview 7.6.0.6 winget`
 
 ## linux下查看一个运行文件的依赖
+
 ```bash
 ldd a
 ```
+
