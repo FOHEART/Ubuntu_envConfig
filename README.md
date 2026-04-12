@@ -109,6 +109,20 @@ Output
 `PowerShell         Microsoft.PowerShell         7.5.5.0 winget
 PowerShell Preview Microsoft.PowerShell.Preview 7.6.0.6 winget`
 
+### PowerShell 卸载Windows应用商店UAP 扩展名为appx
+
+1. 找到准确的应用名字
+
+```Shell
+Get-AppxPackage | Select-Object Name, PackageFullName
+```
+
+2.卸载
+
+```Shell
+  Remove-AppxPackage 21090PaddyXu.QuickLook_3.7.3.0_neutral__egxr34yet59cg 
+```
+  
 ## linux下查看一个运行文件的依赖
 
 ```bash
