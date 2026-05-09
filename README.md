@@ -58,6 +58,12 @@ git config --global user.email "humaoxiao@foheart.com"
 git config --global user.name "FOHEART"
 ```
 
+## 安装python
+
+```Shell
+sudo apt install python3-pip python-is-python3
+```
+
 ## 更换Python源
 
 pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
