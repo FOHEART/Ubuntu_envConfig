@@ -61,7 +61,7 @@ git config --global user.name "FOHEART"
 ## 安装python
 
 ```Shell
-sudo apt install python3-pip python-is-python3
+sudo apt install python3-pip python-is-python3 npm
 ```
 
 ## 更换Python源
