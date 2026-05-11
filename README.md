@@ -76,9 +76,32 @@ pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
 
 windows下载最新安装包安装
 
+Ubuntu下升级Node，Ubuntu22.04下版本过低，无法使用openspec
+
+```Shell
+sudo apt remove --purge nodejs npm
+sudo apt autoremove
+```
+
+```Shell
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+# 若需指定版本，如 22.x，则将 setup_lts.x 改为 setup_22.x
+```
+
+```Shell
+sudo apt install -y nodejs
+```
+
+```Shell
+node -v
+npm -v
+```
+
 安装完后执行：
 
-`npm install -g @fission-ai/openspec@latest`
+```Shell
+npm install -g @fission-ai/openspec@latest
+```
 
 ## 安装winget
 
