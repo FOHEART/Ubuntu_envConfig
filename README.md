@@ -162,7 +162,7 @@ ldd a
 
 使用PowerShell命令
 
-# 语法：scp -r ubuntu用户名@ubuntu_ip:ubuntu文件夹路径 本地windows目标路径
+语法：scp -r ubuntu用户名@ubuntu_ip:ubuntu文件夹路径 本地windows目标路径
 
 ```bash
 scp -r your_ubuntu_user@ubuntu_vm_ip:/home/foheart/target_folder D:\
