@@ -58,6 +58,12 @@ git config --global user.email "humaoxiao@foheart.com"
 git config --global user.name "FOHEART"
 ```
 
+## 安装python
+
+```Shell
+sudo apt install python3-pip python-is-python3 npm
+```
+
 ## 更换Python源
 
 pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
@@ -70,9 +76,32 @@ pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
 
 windows下载最新安装包安装
 
+Ubuntu下升级Node，Ubuntu22.04下版本过低，无法使用openspec
+
+```Shell
+sudo apt remove --purge nodejs npm
+sudo apt autoremove
+```
+
+```Shell
+curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+# 若需指定版本，如 22.x，则将 setup_lts.x 改为 setup_22.x
+```
+
+```Shell
+sudo apt install -y nodejs
+```
+
+```Shell
+node -v
+npm -v
+```
+
 安装完后执行：
 
-`npm install -g @fission-ai/openspec@latest`
+```Shell
+npm install -g @fission-ai/openspec@latest
+```
 
 ## 安装winget
 
@@ -109,9 +138,33 @@ Output
 `PowerShell         Microsoft.PowerShell         7.5.5.0 winget
 PowerShell Preview Microsoft.PowerShell.Preview 7.6.0.6 winget`
 
+### PowerShell 卸载Windows应用商店UAP 扩展名为appx
+
+1. 找到准确的应用名字
+
+```Shell
+Get-AppxPackage | Select-Object Name, PackageFullName
+```
+
+2.卸载
+
+```Shell
+  Remove-AppxPackage 21090PaddyXu.QuickLook_3.7.3.0_neutral__egxr34yet59cg 
+```
+  
 ## linux下查看一个运行文件的依赖
 
 ```bash
 ldd a
+```
+
+## 从Ubuntu虚拟机拷贝一个文件夹到Windows
+
+使用PowerShell命令
+
+语法：scp -r ubuntu用户名@ubuntu_ip:ubuntu文件夹路径 本地windows目标路径
+
+```bash
+scp -r your_ubuntu_user@ubuntu_vm_ip:/home/foheart/target_folder D:\
 ```
 
