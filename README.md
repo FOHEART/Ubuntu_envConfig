@@ -3,7 +3,7 @@
 ## 编译环境
 
 ```bash
-sudo apt install build-essential
+sudo apt install build-essential python3-pip python-is-python3 npm net-tools
 ```
 
 ## 虚拟机没有网络
@@ -50,12 +50,6 @@ tar -xzf backup.tar.gz
 ```Shell
 git config --global user.email "humaoxiao@foheart.com"
 git config --global user.name "FOHEART"
-```
-
-## 安装python
-
-```Shell
-sudo apt install python3-pip python-is-python3 npm
 ```
 
 ## 更换Python源
