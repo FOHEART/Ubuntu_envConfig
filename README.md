@@ -29,12 +29,6 @@ chmod +x ./shell_cmd/fix-shared-folders.sh
 ./shell_cmd/fix-shared-folders.sh
 ```
 
-## 将当前目录使用VSCode打开（Windows）
-
-```Shell
-./shell_cmd_win/open_in_vscode.bat
-```
-
 ## 压缩/解压文件夹
 
 ```Shell
