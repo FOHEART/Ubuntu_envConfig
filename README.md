@@ -5,11 +5,15 @@
 ```bash
 sudo apt update
 
-sudo apt install build-essential python3-pip python-is-python3 npm net-tools
-
-sudo apt install libxcb-cursor0 libxcb-cursor-dev libxkbcommon-x11-0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0 libxcb-xfixes0
-
-sudo apt install fcitx5 fcitx5-chinese-addons fcitx5-config-qt fcitx5-frontend-gtk3 fcitx5-frontend-gtk4 fcitx5-frontend-qt5
+sudo apt install \
+open-vm-tools open-vm-tools-desktop \
+git cmake build-essential python3-pip python-is-python3 npm net-tools \
+libxcb-cursor0 libxcb-cursor-dev libxkbcommon-x11-0 libxcb-icccm4 \
+libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 \
+libxcb-xinerama0 libxcb-xfixes0 libglew-dev libglfw3-dev libglm-dev \
+libglu1-mesa-dev libgl1-mesa-dev freeglut3-dev \
+fcitx5 fcitx5-chinese-addons fcitx5-config-qt \
+fcitx5-frontend-gtk3 fcitx5-frontend-gtk4 fcitx5-frontend-qt5
 ```
 
 ## 虚拟机没有网络
