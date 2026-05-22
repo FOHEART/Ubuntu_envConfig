@@ -4,6 +4,8 @@
 
 ```bash
 sudo apt install build-essential python3-pip python-is-python3 npm net-tools
+
+sudo apt install libxcb-cursor0 libxcb-cursor-dev libxkbcommon-x11-0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0 libxcb-xfixes0
 ```
 
 ## 虚拟机没有网络
@@ -23,12 +25,6 @@ chmod +x ./shell_cmd/fix-shared-folders.sh
 
 ```Shell
 ./shell_cmd_win/open_in_vscode.bat
-```
-
-## 如果qt程序无法启动
-
-```Shell
-sudo apt install libxcb-cursor0 libxcb-cursor-dev libxkbcommon-x11-0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0 libxcb-xfixes0
 ```
 
 ## 压缩/解压文件夹
