@@ -163,3 +163,10 @@ sudo apt install gnome-shell-extension-manager
 
 安装网速插件 
 
+## 安装Linux版本everything
+
+```bash
+sudo add-apt-repository ppa:christian-boxdoerfer/fsearch-stable
+sudo apt update
+sudo apt install fsearch
+```
