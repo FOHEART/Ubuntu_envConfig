@@ -154,3 +154,12 @@ ldd a
 scp -r your_ubuntu_user@ubuntu_vm_ip:/home/foheart/target_folder D:\
 ```
 
+## Ubuntu安装插件
+
+```bash
+sudo apt update
+sudo apt install gnome-shell-extension-manager
+```
+
+安装网速插件 
+
