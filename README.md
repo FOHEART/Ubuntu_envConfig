@@ -179,6 +179,10 @@ sudo apt install ffmpeg v4l-utils
 
 v4l2-ctl --list-device
 
+查看某一个摄像头支持的分辨率和帧率：
+
+v4l2-ctl -d /dev/video0 --list-formats-ext
+
 预览第 1 个摄像头：
 
 ffplay -f v4l2 -i /dev/video0
@@ -192,3 +196,5 @@ ffplay -f v4l2 -input_format yuyv422 -video_size 640x480 -framerate 30 -i /dev/v
 sudo apt install qv4l2
 
 sudo qv4l2 -d /dev/video0
+
+单独启动qv4l2需要管理员权限，不然打开摄像头就是花屏。
