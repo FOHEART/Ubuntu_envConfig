@@ -170,3 +170,21 @@ sudo add-apt-repository ppa:christian-boxdoerfer/fsearch-stable
 sudo apt update
 sudo apt install fsearch
 ```
+
+## Ubuntu预览多个摄像头
+
+sudo apt install ffmpeg v4l-utils
+
+预览第 1 个摄像头：
+
+ffplay -f v4l2 -i /dev/video0
+
+YUYV 低带宽：
+
+ffplay -f v4l2 -input_format yuyv422 -video_size 640x480 -framerate 30 -i /dev/video2
+
+或者使用ui软件：
+
+sudo apt install qv4l2
+
+sudo qv4l2 -d /dev/video0
