@@ -175,6 +175,10 @@ sudo apt install fsearch
 
 sudo apt install ffmpeg v4l-utils
 
+查看所有摄像头：
+
+v4l2-ctl --list-device
+
 预览第 1 个摄像头：
 
 ffplay -f v4l2 -i /dev/video0
