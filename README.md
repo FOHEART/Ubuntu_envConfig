@@ -171,6 +171,14 @@ sudo apt update
 sudo apt install fsearch
 ```
 
+## 安装Wine
+
+sudo apt install wine64
+
+找一个目录执行，一般是用户根目录
+
+wineboot
+
 ## Ubuntu预览多个摄像头
 
 sudo apt install ffmpeg v4l-utils
